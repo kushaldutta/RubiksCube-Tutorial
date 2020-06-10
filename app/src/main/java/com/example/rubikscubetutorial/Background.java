@@ -30,9 +30,13 @@ public class Background extends AppCompatActivity implements View.OnClickListene
                 openMainActivity();
                 break;
             case R.id.next1:
-                openMainActivity();
-                break;
+                openStage();
         }
+    }
+
+    private void openStage() {
+        Intent intent = new Intent(this, Stage.class);
+        startActivity(intent);
     }
 
     private void openMainActivity() {
