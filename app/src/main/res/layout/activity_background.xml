@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".Background">
+
     <TextView
         android:id="@+id/background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:text="Background"
         android:textSize="36dp"
-        android:textStyle="bold"
-        android:text="Background" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/next1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:text="Next"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:text="Next" />
 
     <Button
         android:id="@+id/back1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:text="Back"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:text="Back" />
 
-    
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/background"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:text="In this tutorial, you will learn how to solve the 3x3 Rubik's Cube in just 7 steps! First, let's learn some definitions that will help us in this tutorial."
+        android:textSize="18sp" />
+
 </RelativeLayout>
