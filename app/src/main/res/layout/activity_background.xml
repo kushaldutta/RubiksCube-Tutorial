@@ -31,6 +31,7 @@
         android:text="Back" />
 
     <TextView
+        android:id="@+id/backintro"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/background"
@@ -39,5 +40,12 @@
         android:layout_centerHorizontal="true"
         android:text="In this tutorial, you will learn how to solve the 3x3 Rubik's Cube in just 7 steps! First, let's learn some definitions that will help us in this tutorial."
         android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rubikscube"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/backintro"/>
 
 </RelativeLayout>
