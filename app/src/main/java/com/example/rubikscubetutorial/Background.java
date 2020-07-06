@@ -19,9 +19,6 @@ public class Background extends AppCompatActivity implements View.OnClickListene
         back.setOnClickListener(this);
         next.setOnClickListener(this);
     }
-
-
-
     private void openStage() {
         Intent intent = new Intent(this, Stage.class);
         startActivity(intent);
