@@ -45,12 +45,12 @@
 
         <ImageView
             android:id="@+id/cube"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/rubikscube"
+            android:layout_width="148dp"
+            android:layout_height="148dp"
+            android:layout_below="@+id/backintro"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/backintro"/>
+            android:src="@drawable/rubikscube" />
 
     </RelativeLayout>
-    
+
 </ScrollView>
