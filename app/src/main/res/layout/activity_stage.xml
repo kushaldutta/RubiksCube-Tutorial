@@ -36,6 +36,7 @@
             android:layout_alignParentRight="true"/>
 
         <TextView
+            android:id="@+id/stage_goal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/stage"
@@ -44,6 +45,15 @@
             android:textStyle="bold"
             android:gravity="center_horizontal"
             android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/cross"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stage_goal"
+            android:src="@drawable/whitecross" />
+
 
     </RelativeLayout>
 
