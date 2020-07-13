@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Notation"></activity>
+        <activity android:name=".stage3"></activity>
+        <activity android:name=".stage2" />
+        <activity android:name=".Notation" />
         <activity android:name=".Stage" />
         <activity android:name=".Background" />
         <activity android:name=".MainActivity">
