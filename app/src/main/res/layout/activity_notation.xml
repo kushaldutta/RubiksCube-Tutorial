@@ -34,11 +34,48 @@
             android:layout_alignParentRight="true"
             android:text="Stage 1"/>
 
+        <TextView
+            android:id="@+id/notation_info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/noteback"
+            android:layout_marginTop="7.5sp"
+            android:text="In any tutorial for the Rubik’s Cube, you’ll see a combination of several letters which tell you which parts of the cube to move. Combining moves to reorient the cube in a certain way is called an algorithm. There will be multiple algorithms in this tutorial, so make sure you understand what all of these letters mean."
+            android:gravity="center" />
+
         <ImageView
-            android:id="@+id/right"
+            android:id="@+id/rmove"
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:src="@drawable/rmove"
-            android:layout_below="@id/textView" />
+            android:layout_below="@id/notation_info"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/rmove" />
+
+        <ImageView
+            android:id="@+id/lmove"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_toRightOf="@id/rmove"
+            android:src="@drawable/l"
+            android:layout_below="@id/notation_info"
+            android:layout_marginTop="50sp"/>
+
+        <ImageView
+            android:id="@+id/f_move"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_toRightOf="@id/lmove"
+            android:src="@drawable/f"
+            android:layout_below="@id/notation_info"
+            android:layout_marginTop="50sp"/>
+
+        <ImageView
+            android:id="@+id/u_move"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_toRightOf="@id/f_move"
+            android:src="@drawable/u"
+            android:layout_below="@id/notation_info"
+            android:layout_marginTop="50sp"/>
     </RelativeLayout>
 </ScrollView>
