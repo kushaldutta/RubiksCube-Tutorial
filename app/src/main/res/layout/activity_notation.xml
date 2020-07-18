@@ -26,14 +26,6 @@
             android:layout_alignParentLeft="true"
             android:text="Back"/>
 
-        <Button
-            android:id="@+id/notestart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:text="Stage 1"/>
-
         <TextView
             android:id="@+id/notation_info"
             android:layout_width="match_parent"
@@ -77,5 +69,7 @@
             android:src="@drawable/u"
             android:layout_below="@id/notation_info"
             android:layout_marginTop="50sp"/>
+
+
     </RelativeLayout>
 </ScrollView>
