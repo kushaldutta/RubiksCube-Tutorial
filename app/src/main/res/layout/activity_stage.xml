@@ -48,12 +48,50 @@
 
         <ImageView
             android:id="@+id/cross"
-            android:layout_width="200sp"
-            android:layout_height="200sp"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
             android:layout_centerHorizontal="true"
             android:layout_below="@id/stage_goal"
             android:src="@drawable/whitecross" />
 
+        <TextView
+            android:id="@+id/stage_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To complete the white cross correctly, the edge pieces will need to be connected to the proper center (as shown in the image above). This step can be completed by trial and error, but here are some tips if you are stuck:"
+            android:layout_below="@+id/cross"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/stage_bullet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stage_intro"
+            android:text="•If you have trouble with matching the non-white side of the edge piece to the correct center, place the white side of the edge piece to the side with the yellow center. Keeping the white center on top, rotate the bottom layer until the edge matches with the appropriate center. Then, rotate the white edge onto the white side."
+            android:gravity="center"
+            android:layout_marginTop="5sp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/stage_bullet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stage_bullet1"
+            android:text="•If your cube looks like the image below, there is an algorithm that can shift the edge piece to be correct. Keep the white center on top and the edge piece to your right, and perform this algorithm: R* U F* U* (check notation for a reminder of the moves)"
+            android:gravity="center"
+            android:layout_marginTop="2.5sp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/stage_bullet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stage_bullet2"
+            android:text="•Keep playing around with your cube and this step will get much easier. Don’t worry, the next steps all have algorithms to follow!"
+            android:gravity="center"
+            android:layout_marginTop="2.5sp"
+            android:textSize="12sp"/>
 
     </RelativeLayout>
 
