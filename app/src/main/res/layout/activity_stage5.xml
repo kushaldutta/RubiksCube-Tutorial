@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/stage5"
             android:layout_marginTop="10sp"
-            android:text="Goal: Complete Yellow Side"
+            android:text="Goal: Position Yellow Corner Pieces"
             android:textStyle="bold"
             android:layout_centerHorizontal="true"
             android:textSize="18sp"/>
