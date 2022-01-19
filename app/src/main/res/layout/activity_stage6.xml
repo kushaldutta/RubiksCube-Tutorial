@@ -36,7 +36,7 @@
             android:layout_alignParentRight="true" />
 
         <TextView
-            android:id="@+id/stage6_goal"
+            android:id="@+id/goal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/stage6"
@@ -45,6 +45,75 @@
             android:textStyle="bold"
             android:layout_centerHorizontal="true"
             android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/filler1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_below="@+id/goal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:id="@+id/intro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/filler1"
+            android:layout_marginTop="10sp"
+            android:text="This step completes the yellow side, leaving only the edges left."
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/instructions1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/intro"
+            android:text="When performing this algorithm, make sure to keep the white side facing up (flip the cub upside down)."
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/instructions2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/instructions1"
+            android:text="Hold the cube so an improperly oriented yellow corner piece is at the bottom right of the cube, as shown in the image below:"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/filler2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_below="@+id/instructions2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:id="@+id/instructions3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/filler2"
+            android:text="Repeat this algorithm until the piece is oriented correctly with the yellow piece on the yellow side: R, U, R’, U’"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/filler3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_below="@+id/instructions3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"/>
+
+        <TextView
+            android:id="@+id/instructions4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/filler3"
+            android:text="Then, rotate the bottom layer until the next improperly oriented yellow corner piece is at the bottom right of the cube. Make sure to not turn the whole cube, but rather only the bottom layer. Then repeat the algorithm above, and keep on doing this until the yellow side is completely solved, as shown in the image at the top. "
+            android:gravity="center_horizontal" />
 
     </RelativeLayout>
 </ScrollView>
