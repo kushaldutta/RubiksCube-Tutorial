@@ -40,8 +40,17 @@
             android:layout_width="100sp"
             android:layout_height="100sp"
             android:layout_below="@id/notation_info"
-            android:layout_marginTop="50sp"
+            android:layout_marginTop="25sp"
             android:src="@drawable/rmove" />
+
+        <TextView
+            android:id="@+id/r"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/rmove"
+            android:text="R"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
 
         <ImageView
             android:id="@+id/lmove"
@@ -50,7 +59,17 @@
             android:layout_toRightOf="@id/rmove"
             android:src="@drawable/l"
             android:layout_below="@id/notation_info"
-            android:layout_marginTop="50sp"/>
+            android:layout_marginTop="25sp"/>
+
+        <TextView
+            android:id="@+id/l"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/lmove"
+            android:layout_toRightOf="@id/r"
+            android:text="L"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
 
         <ImageView
             android:id="@+id/f_move"
@@ -59,7 +78,17 @@
             android:layout_toRightOf="@id/lmove"
             android:src="@drawable/f"
             android:layout_below="@id/notation_info"
-            android:layout_marginTop="50sp"/>
+            android:layout_marginTop="25sp"/>
+
+        <TextView
+            android:id="@+id/f"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/f_move"
+            android:layout_toRightOf="@id/l"
+            android:text="F"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
 
         <ImageView
             android:id="@+id/u_move"
@@ -68,8 +97,96 @@
             android:layout_toRightOf="@id/f_move"
             android:src="@drawable/u"
             android:layout_below="@id/notation_info"
-            android:layout_marginTop="50sp"/>
+            android:layout_marginTop="25sp"/>
 
+        <TextView
+            android:id="@+id/u"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/u_move"
+            android:layout_toRightOf="@id/f"
+            android:text="U"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/u"
+            android:text="The * symbol shows that the move should be completed in the opposite way (counter-clockwise):"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25sp" />
+
+        <ImageView
+            android:id="@+id/rprime"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_below="@id/counter"
+            android:src="@drawable/r_prime" />
+
+        <TextView
+            android:id="@+id/rp"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/rprime"
+            android:text="R'"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/lprime"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_toRightOf="@id/rprime"
+            android:src="@drawable/l_prime"
+            android:layout_below="@id/counter" />
+
+        <TextView
+            android:id="@+id/lp"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/lprime"
+            android:layout_toRightOf="@id/rp"
+            android:text="L'"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/fprime"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_toRightOf="@id/lprime"
+            android:src="@drawable/f_prime"
+            android:layout_below="@id/counter" />
+
+        <TextView
+            android:id="@+id/fp"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/fprime"
+            android:layout_toRightOf="@id/lp"
+            android:text="F'"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/uprime"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_toRightOf="@id/fprime"
+            android:src="@drawable/u_prime"
+            android:layout_below="@id/counter" />
+
+        <TextView
+            android:id="@+id/up"
+            android:layout_width="100sp"
+            android:layout_height="20sp"
+            android:layout_below="@id/uprime"
+            android:layout_toRightOf="@id/fp"
+            android:text="U'"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
 
     </RelativeLayout>
 </ScrollView>
