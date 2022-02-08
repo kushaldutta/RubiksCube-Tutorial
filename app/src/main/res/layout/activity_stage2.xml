@@ -71,7 +71,7 @@
             android:text="When performing the algorithms in this step, make sure that the white side of the cube is facing up. Look for a corner piece in the bottom layer which has a white side, and then rotate the layer until the two colors that aren’t white are in between their matching center pieces."
             android:layout_below="@+id/stage2_intro"
             android:gravity="center" />
-        
+
         <TextView
             android:id="@+id/stage2_instructions2"
             android:layout_width="wrap_content"

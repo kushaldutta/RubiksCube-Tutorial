@@ -48,9 +48,9 @@
 
         <ImageView
             android:id="@+id/filler3.1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cube_twolayers"
             android:layout_below="@+id/goal"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
@@ -75,9 +75,9 @@
 
         <ImageView
             android:id="@+id/filler3.2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/bigt"
             android:layout_below="@+id/instructions1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
@@ -98,20 +98,12 @@
             android:text="D, L, D’, L’, turn the cube to the left so the misplaced white corner is facing you, D’, R’, D, R"
             android:gravity="center_horizontal" />
 
-        <ImageView
-            android:id="@+id/filler3.3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_below="@+id/alg1"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5sp"/>
-
         <TextView
             android:id="@+id/instructions3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/filler3.3"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/alg1"
             android:text="If the other color of the edge piece matches the center piece on the right side, perform this algorithm:"
             android:gravity="center_horizontal" />
 
@@ -123,20 +115,11 @@
             android:text="D’, R’, D, R, turn the cube to the right so the misplaced white corner is facing you, D, L, D’, L’"
             android:gravity="center_horizontal" />
 
-        <ImageView
-            android:id="@+id/filler3.4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_below="@+id/alg2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5sp"/>
-
         <TextView
             android:id="@+id/instructions4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/filler3.4"
+            android:layout_below="@id/alg2"
             android:text="If all the edge pieces on the bottom layer have yellow but your first two layers don’t look solved, it means that an edge piece is flipped. To fix this, move the yellow edge piece into the incorrectly oriented place in the second layer using the algorithms above. Then, use the algorithms above to properly place the edge piece. Once your cube looks like the image at the top, you are ready to move on to the next stage!"
             android:gravity="center_horizontal" />
 
