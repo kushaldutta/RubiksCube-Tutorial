@@ -40,9 +40,9 @@
 
         <ImageView
             android:id="@+id/filler1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/solved"
             android:layout_below="@+id/goal"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
@@ -73,20 +73,12 @@
             android:text="Perform this algorithm to rotate the other three incorrect edge pieces (you may need to perform it twice: (R, U, R’, U’), (L’, U’, L, U), (U, R, U’, R’), (U’, L’, U, L)"
             android:gravity="center_horizontal" />
 
-        <ImageView
-            android:id="@+id/filler2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_below="@+id/instructions2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5sp"/>
-
         <TextView
             android:id="@+id/instructions3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/filler2"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/instructions2"
             android:text="If your cube has all 4 sides with an incorrect edge, then perform the algorithm above with the yellow side facing up and any side facing you. Then, follow the instruction above to complete the cube."
             android:gravity="center_horizontal" />
 
