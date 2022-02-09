@@ -48,9 +48,9 @@
 
         <ImageView
             android:id="@+id/filler1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/stage5goal"
             android:layout_below="@+id/goal"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
@@ -83,9 +83,9 @@
 
         <ImageView
             android:id="@+id/filler2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/wrong_corners"
             android:layout_below="@+id/instructions2"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
@@ -108,9 +108,9 @@
 
         <ImageView
             android:id="@+id/filler3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/switch_adjacent"
             android:layout_below="@+id/alg1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
@@ -133,19 +133,10 @@
 
         <ImageView
             android:id="@+id/filler4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tri_switch"
             android:layout_below="@+id/alg2"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="5sp"/>
-
-        <ImageView
-            android:id="@+id/filler5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"
-            android:layout_below="@+id/filler4"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5sp"/>
 
@@ -153,7 +144,7 @@
             android:id="@+id/instructions5"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/filler5"
+            android:layout_below="@id/filler4"
             android:text="Use these two algorithms to rotate the corners in the way you want so you can have the corners properly placed."
             android:gravity="center_horizontal" />
 
